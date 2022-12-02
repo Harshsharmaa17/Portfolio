@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jj.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <nav > <h3><b><span> PORTFOLIO</span></b></h3> <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#form">Register</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul></nav>
+        <div id ="clock"> 8:15:45</div>
+
+        <!-- -----------------------other section------------ -->
+        <div class="head-text"> <p> Full Stack Developer</p>
+        <h1>Harsh Sharma </h1></div>
+    </div>
+  
+</div>
+
+
+<!-- ---------------------about------------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img id="profile" src="photo.png.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle"> About me</h1>
+                <p style="border: 2px solid white;">Full stack developers are perhaps some of the most highly regarded professionals within the field of web development, but what is a full stack developer? Broadly speaking, they are web developers equipped to work with a digital entity’s front and back ends, meaning they are usually skilled with aspects of computer programming, 
+                    user experience (UX) design, project management, and in many cases, client communication. This specialized hybridization has generally increased the demand for full stack developers in a variety of professional capacities.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab id="skills">
+                    <ul>
+                        <li><span>Front end development</span><br> Web development</li>
+                        <li><span>Database Management system</span><br> MySQL</li>
+                        <li><span>Coding</span><br>Python Java Cpp</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education" >
+                    <ul>
+                        <li><span>Btech CSE</span><br>Chitkara University</li>
+                        <li><span>Non medical 70%</span><br> GMSSS</li>
+                        <li><span>10th class 70% </span><br>Dav school</li>
+                    </ul>
+                </div>
+
+            </div>
+           
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container"> 
+        <h1 class="subtitless">Services Provided</h1>
+        <div class="service-list">
+            <div class="box1">
+                <h2>Web Design</h2>
+                <p>Here you will get a good web design with the help of my experience i can make your website more productive and nice</p>
+                <a href="#">Learn more..</a>
+            </div>
+            <div class="box2">
+                <h2>Database Management</h2>
+                <p>Here you can get complete help in the database management system</p>
+                <a href="#">Learn more..</a>
+            </div>
+            <div class="box3">
+                <h2>Back end development</h2>
+                <p>Here I will help you in making your website fully user friendly and responsive</p>
+                <a href="#">Learn more..</a>
+            </div>
+        </div>
+    </div>
+</div><br><br><br><br
+<!-- --------------------form-------------- -->
+<div id="form">
+        <div class="mainblock">
+            <h1 class="subtit">Registration</h1>
+            <form action="/">
+              <hr>
+              <div class="account-type">
+                <input type="radio" value="none" id="radioOne" name="account" checked/>
+                <label for="radioOne" class="radio">Personal</label>
+                <input type="radio" value="none" id="radioTwo" name="account" />
+                <label for="radioTwo" class="radio">Company</label>
+              </div>
+              <hr>
+              <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+              <input type="text" name="name" id="name" placeholder="Email" required/>
+              <label id="icon" for="name"><i class="fas fa-user"></i></label>
+              <input type="text" name="name" id="name" placeholder="Name" required/>
+              <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+              <input type="password" name="name" id="name" placeholder="Password" required/>
+              <hr>
+              <div class="gender">
+                <input type="radio" value="none" id="male" name="gender" checked/>
+                <label for="male" class="radio">Male</label>
+                <input type="radio" value="none" id="female" name="gender" />
+                <label for="female" class="radio">Female</label>
+              </div>
+              <hr>
+              <div class="btn-block">
+                <button type="submit" href="/">Submit</button>
+              </div>
+            </form>
+          </div>
+</div>
+<div>
+    </div><br> <br><br> <br><br>
+<footer> <p class="card card-side">Contact Us at Email: Harsh3745.be20@chitkara.edu.in</p></footer>
+</div>
+<script src="jsfile.js"> 
+</script>
+</body>
+</html>
